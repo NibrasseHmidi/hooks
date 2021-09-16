@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Courgette&display=swap");
+
+* {
+  font-family: "Kufam", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  border-bottom: 10px solid #667db6;
+}
+Nav img {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+h2 {
+  font-family: "Courgette", cursive;
+  background-color: #667db6;
+  color: rgb(255, 255, 255);
+  height: 50px;
+
+  font-size: 20px;
+  z-index: 50;
+  margin-left: 550px;
+  margin-bottom: -30px;
+  margin-top: 50px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 50px;
+  transition: 0.3s ease;
+  position: relative;
+
+  display: inline-block;
+}
+button {
+  background-color: #294383;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+input {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+
+  border: none;
+  outline: none;
+  background: none;
+
+  background-color: rgba(238, 238, 238, 0.479);
+  border-radius: 20px;
+
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+
+  transition: 0.4s ease-out;
+}
+
+p {
+  font-size: 13px;
+}
+.footer {
+  height: 100px;
+  margin-top: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bar {
+  background-color: #117eb1e0;
+  height: 50px;
+  margin: 50px 0;
+  padding: 13px 500px;
+}
+.footer-bar span {
+  color: white;
+  background-color: #0e5175;
+  padding: 15px;
+  margin: 3px;
+}
+.footer-bas {
+  background-color: #0c415a;
+  height: 55px;
+  display: flex;
+  padding: 20px 400px;
+  color: white;
+}
+.footer-bas-copy {
+  margin: -10px 0;
+}
+
+span {
+  margin: 15px 30px;
+}
+.footer-flex {
+  display: flex;
+  margin: 50px;
+}
+.footer-flex p {
+  padding-left: 30px;
+  color: whitesmoke;
+  font-size: 13px;
+}
+
+.start {
+  font-size: 30px;
+}
+.css-star {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+.css-add {
+  display: flex;
+  margin-bottom: -60px;
+  margin-left: -100px;
+}
+
+.card-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-div-item {
+  margin: 50px 0;
+}
